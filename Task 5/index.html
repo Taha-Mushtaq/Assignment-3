@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
 </head>
 <body>
+    <input id='ans'type="text" id="ans">
+    <br>
+    <input id='clr-btn'type="button" value="AC" id="clr" onclick="buttonclear()">
+    <br>
+    <input id="button" type="button" value="7" onclick="button('7')">
+    <input id="button" type="button" value="8" onclick="button('8')">
+    <input id="button" type="button" value="9" onclick="button('9')">
+    <input id="button" type="button" value="/" id="div" onclick="button('/')">
+    <br>
+    <input id="button" type="button" value="4" onclick="button('4')">
+    <input id="button" type="button" value="5" onclick="button('5')">
+    <input id="button" type="button" value="6" onclick="button('6')">
+    <input id="button" type="button" value="*" id="mul" onclick="button('*')">
+    <br>
+    <input id="button" type="button" value="1" onclick="button('1')">
+    <input id="button" type="button" value="2" onclick="button('2')">
+    <input id="button" type="button" value="3" onclick="button('3')">
+    <input id="button" type="button" value="-" id="sub" onclick="button('-')">
+    <br>
+    <input id="button" type="button" value="0" onclick="button('0')">
+    <input id="button" type="button" value="." onclick="button('.')">
+    
+    <input id="button" type="button" value="=" onclick="button1()">
+    <input id="button" type="button" value="+" id="add" onclick="button('+')">
+    <br>
     
 </body>
 </html>
